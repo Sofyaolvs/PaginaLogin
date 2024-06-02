@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-image: url('armario-laranja-e-amarelo.jpg'); /* Caminho relativo à localização do CSS */
+  display: flex;
+  flex-direction: column; /* Alterado para coluna para usar flex-grow */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #212136;
+  font-family: 'Lato', sans-serif;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
+}
+
+form {
+  text-align: center;
+  background-color: #d2d23424;
+  padding: 70px; 
+  width: 500px; 
+  box-sizing: border-box; 
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(199, 90, 0, 0.485);
+}
+.logo {
+  max-width: 100px; /* Adjust the size as needed */
+  margin-bottom: 20px; /* Space between the logo and heading */
+}
+
+h1 {
+  font-family: 'Fredoka';
+  height: 50px;
+  font-size: 30px;
+  color: #642a0a;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #cb801654; /* Orange border */
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #dad3c77c; /* Light orange background */
+  color: #333; /* Text color */
+  font-family: 'Lato', sans-serif;
+  box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.357); /* Adjust values as needed */
+}
+
+.mail,
+.pass {
+  font-size: 20px;
+  font-family:'Fredoka';
+  color: #330a03;
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f994;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  /* Remove background color change on focus */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #c16100d5;
+  background-color:rgba(255, 166, 0, 0.225) ;
+  outline: none;
+}
+
+
+
+button {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 50%;
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4e62bbbf;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 2px 2px rgba(179, 99, 0, 0.644); /* Adjust values as needed */
+
+}
+
+button:hover {
+  background-color: #783800;
+}
+
+.rodape {
+  color: #0a0a0a;
+  margin-top: 20px;
+  font-family: 'Fredoka';
+}
+
+a.link {
+  color: #25007b;
+  text-decoration: none;
+  font-weight: 400px;
+  font-family: 'Fredoka';
+}
+
+a.link:hover {
+  text-decoration: underline;
+  color: #582006;
+}
+
+.creditos {
+  font-family: 'Fredoka';
+  font-weight: 200;
+  margin-top: auto; /* Ensure this moves to the bottom */
+}
+.creditos:hover{
+ color: rgb(118, 73, 215);
+ font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

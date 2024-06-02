@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="indexCadastro.css">
+</head>
+<body>
+    <div id="tela1" class="tela ativa">
+        <form action="" class="formm">
+            <div class="box">
+                <img src="logo.png" alt="Logo" class="logo">
+                <h1>Bem - Vindo(a)!</h1>
+                <span class="user">Usuário</span>
+                <input type="text" id="nomeuser" maxlength="50" class="card-usuario">
+                <span class="mail">E-mail</span>
+                <input type="email" maxlength="50" class="card-email" id="maill" onchange="validateFields()">
+                <span class="pass">Senha</span>
+                <input type="password" id="passwordd" maxlength="50" class="card-senha">
+                <button class="btt" id="button" onclick="mostrarTela2()">Login</button>
+                <footer class="rodape">Já tem uma conta? Faça o login <a href="indexLogin.html" class="link">aqui</a></footer>
+            </div>
+            <footer class="creditos">Desenvolvido com <3 por <a href="https://github.com/Sofyaolvs" class="creditos">Sofyaolvs</a></footer>
+        </form>
+    </div>
+
+    
+    
+    <script src="scriptCadastro.js"></script>
+</body>
+</html>
+
+
